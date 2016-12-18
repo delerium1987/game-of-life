@@ -290,6 +290,10 @@
                         <artifactId>findbugs-maven-plugin</artifactId>
                         <version>2.4.0</version>
                         <configuration>
+							<pluginList>
+								http://downloads.sourceforge.net/project/
+								fb-contrib/Current/fb-contrib-4.6.1.jar
+							</pluginList>
                             <effort>Max</effort>
                             <xmlOutput>true</xmlOutput>
                         </configuration>
