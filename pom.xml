@@ -271,6 +271,17 @@
                             <!--<ignoreIdentifiers>true</ignoreIdentifiers>-->
                             <failOnViolation>true</failOnViolation>
                             <failurePriority>2</failurePriority>
+							<rulesets>
+							<ruleset>/rulesets/basic.xml</ruleset>
+							<ruleset>/rulesets/braces.xml</ruleset>
+							<ruleset>/rulesets/imports.xml</ruleset>
+							<ruleset>/rulesets/logging-java.xml</ruleset>
+							<ruleset>/rulesets/naming.xml</ruleset>
+							<ruleset>/rulesets/optimizations.xml</ruleset>
+							<ruleset>/rulesets/strings.xml</ruleset>
+							<ruleset>/rulesets/sunsecure.xml</ruleset>
+							<ruleset>/rulesets/unusedcode.xml</ruleset>
+							</rulesets>
                         </configuration>
                     </plugin>
 
